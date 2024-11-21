@@ -9,6 +9,14 @@ export default defineConfig({
     //   apiKey: "YOUR_SEARCH_API_KEY", // 替换为你的搜索 API 密钥
     //   indexName: "YOUR_INDEX_NAME", // 替换为你的索引名称
     // },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2021-present Evan You'
+    },
+    editLink: {
+        pattern: 'https://github.com/durunsong/my-blog/edit/master/docs/:path',
+        text: 'Edit this page on GitHub'
+      },
     socialLinks: [
         { icon: 'github', link: 'https://github.com/durunsong/my-blog' }
       ],
