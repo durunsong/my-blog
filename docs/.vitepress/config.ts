@@ -1,25 +1,33 @@
 import { defineConfig } from "vitepress";
+import nav from "./config/nav";
+import sidebar from "./config/sidebar";
+import footer from "./config/footer";
+import socialLinks from "./config/socialLinks";
 
 export default defineConfig({
   title: "My Blog",
-  description: "This is my VitePress blog.",
+  description: "分享我的前端开发经验与学习笔记",
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
+  ],
+  markdown: {
+    lineNumbers: true, // 开启代码行号（可选）
+    breaks: true,      // 启用宽松模式，自动识别单个换行符
+  },
   themeConfig: {
-    // algolia: {
-    //   appId: "YOUR_APP_ID", // 替换为你的 Algolia 应用 ID
-    //   apiKey: "YOUR_SEARCH_API_KEY", // 替换为你的搜索 API 密钥
-    //   indexName: "YOUR_INDEX_NAME", // 替换为你的索引名称
-    // },
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2021-present Evan You'
-    },
+    outlineTitle: "页面导航", // 修改标题为 "本页目录"
+    logo: "/logo.png",
+    nav,
+    sidebar,
+    footer,
+    socialLinks,
     editLink: {
-        pattern: 'https://github.com/durunsong/my-blog/edit/master/docs/:path',
-        text: 'Edit this page on GitHub'
-      },
-    socialLinks: [
-        { icon: 'github', link: 'https://github.com/durunsong/my-blog' }
-      ],
+      pattern: "https://github.com/durunsong/my-blog/edit/master/docs/:path",
+      text: "在 GitHub 上编辑此页面",
+    },
     search: {
       provider: "local",
     },
