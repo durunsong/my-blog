@@ -1,6 +1,6 @@
 ## 自动化翻译的JavaScript程序
 
-### 介绍
+## 介绍
 
 - 本文是一个基于百度翻译API的自动化翻译`JavaScript`程序，当然你也可以使用其他`API`，例如：`deepl`(号称最准确的翻译)、网易有道翻译....
 - 当你在做`vue/react/angular/jquery`国际化项目的过程中，前端的很多字段需要翻译成很多种语言，不需要业务人员翻译的情况下，这种方案更加便捷。
@@ -10,14 +10,14 @@
 - **deepl**：[中文文档](https://www.deepl.com/zh/products/api)
 - **网易有道翻译**:[中文文档](https://ai.youdao.com/modelTranslation.s)
 
-### 注意事项
+## 注意事项
 
 - 亚洲国家为了翻译更加准确，需要使用中文去翻译
 - 其他地区比如美洲欧洲用英文翻译更加准确
 - 做中东国家业务的，用这个程序翻译阿拉伯语需要仔细审查，还要注意但是他们的阅读习惯是向右布局RTL模式，在前端页面设计和其他地方都不一样
 - 看文章前先看api一遍文档，不然很多东西不清楚在哪里
 
-### 开始
+## 开始
 
 1. 使用您的百度账号登录[百度翻译开放平台](http://api.fanyi.baidu.com/)；
 2. [看文档](https://fanyi-api.baidu.com/doc/11) 注册开发者账号，选择账号类型 **个人高级版** ，高级版每月有100万字符免费调用额度
@@ -26,13 +26,13 @@
 5. 开通文档翻译API服务：[开通链接](https://fanyi-api.baidu.com/choose)；(通用文本翻译)
 6. 配置账号相关
 
-### 通用翻译API HTTPS 地址：
+## 通用翻译API HTTPS 地址：
 
 ```javascript
 https://fanyi-api.baidu.com/api/trans/vip/translate
 ```
 
-### 文档目录结构(具体根据自己项目要求来)
+## 文档目录结构(具体根据自己项目要求来)
 
 ```markdown
 baidu-trans
@@ -41,14 +41,14 @@ baidu-trans
 └── index.html
 ```
 
-### 流程
+## 流程
 
 1. 自动读取en.js中想要翻译的字段
 2. 自动遍历翻译文件对象，批量翻译
 3. 自动生成对应的翻译文件
 4. 自动下载对应的翻译文件
 
-### demo
+## demo
 
 `en.js`
 
@@ -445,7 +445,7 @@ var MD5 = function (string) {
 
 ## 代码结构分析
 
-### 1. HTML 与 JavaScript 基础结构
+## 1. HTML 与 JavaScript 基础结构
 
 ```html
 <div>当前翻译对象：<span id="target-lang"></span></div>
@@ -457,7 +457,7 @@ var MD5 = function (string) {
 - 一个用于显示当前翻译目标语言的 `<span>` 标签。
 - 一个触发翻译过程的按钮，点击后调用 `window.doTrans()` 函数。
 
-### 2. 翻译数据的引入与初始化
+## 2. 翻译数据的引入与初始化
 
 ```javascript
 import en from "./en.js";
@@ -468,7 +468,7 @@ $("#target-lang").text(toLang);
 
 在这里，我们引入了 `en.js` 文件，该文件包含需要翻译的内容。代码将 `fromLang` 设置为 **英语**，并将 `toLang` 设置为 **葡萄牙语**，页面中的 `<span>` 标签也会显示目标语言。
 
-### 3. 百度翻译 API 调用逻辑
+## 3. 百度翻译 API 调用逻辑
 
 ```javascript
 function trans(valueString) {
@@ -509,7 +509,7 @@ function trans(valueString) {
 
 需要注意的是，实际项目中，你需要填写 `appid` 和 `key`，这些可以从百度翻译开发者平台获取。
 
-### 4. 分组处理
+## 4. 分组处理
 
 ```javascript
 function chunkArray(myArray, chunkSize) {
@@ -526,7 +526,7 @@ function chunkArray(myArray, chunkSize) {
 
 为了优化翻译请求的处理效率，`chunkArray` 函数将大块的翻译数据分割成小块。在这里，数据被分成每组 8 个的数组，以便更好地处理 API 的并发请求。
 
-### 5. 执行翻译
+## 5. 执行翻译
 
 ```javascript
 async function doTrans() {
@@ -554,7 +554,7 @@ async function doTrans() {
 
 `doTrans` 是翻译流程的主函数。它会将每个分组的数据发送给百度翻译` API`，并等待所有请求完成后再继续。所有翻译完成后，将结果处理为数组，并调用 `resultDown` 函数生成文件。
 
-### 6. 整理翻译结果与下载
+## 6. 整理翻译结果与下载
 
 ```javascript
 function resultDown(transStrArr) {
@@ -584,7 +584,7 @@ function downloadFile(data, filename) {
 
 在这里，`resultDown` 函数将翻译结果和对应的键值重新组合，形成一个可用的对象格式。接着，`downloadFile` 函数会生成一个 `.js` 文件并触发浏览器下载。
 
-### 7. 翻译流程演示
+## 7. 翻译流程演示
 
 点击按钮后，翻译流程开始：
 
@@ -592,7 +592,7 @@ function downloadFile(data, filename) {
 2. 所有翻译任务完成后，整理并生成翻译后的语言文件。
 3. 文件自动下载，文件名为目标语言代码（如 `pt.js`）。
 
-### 检验多语言文件字段是否一致
+## 检验多语言文件字段是否一致
 
 **场景：**当我们一个项目有大量翻译的语言对象时(en/pt/spa/.....),平时我们在添加多语言key的时候，有时候会遗漏的情况，比如说 : 我们初始文件有两个，亚洲国家用中文文件翻译zh.js，其他国家用英语翻译en.js，有时候我在zh.js添加了一个语言key为user:'个人'，但是在en.js中遗漏掉了这个key，下面这个diff.html文件就是为了检验我们在开发过程中是否存在这种错误。
 
@@ -642,7 +642,7 @@ function downloadFile(data, filename) {
   </body>
 </html>
 ```
-### github代码仓库
+## github代码仓库
 - 创作不易希望点个`star`⭐⭐⭐
 [github](https://github.com/durunsong/Baidu-trans.git)
 
@@ -651,10 +651,10 @@ function downloadFile(data, filename) {
 - 这个`demo`展示了如何使用百度翻译 `API` 快速实现多语言文件的自动化翻译。通过分组处理和异步请求，能够高效地翻译大量文本，并将结果下载为对应的语言文件放在项目中。
 - 其他`API`翻译也类似这样的写法
 
-### 推荐项目
+## 推荐项目
 - 这是一个`国际化全栈中后台`解决方案，支持`16种`语言切换
 - 前端：`vue3.5+typescript+vite5+pinia+element-plus+unocss+sass`
-- 后端`nodejs+express+mysql+redis`的管理后台项目
+- 后端`nodejs+express+mySQL/postgreSQL+redis`的管理后台项目
 - 预览：网络需要绕过大陆 [kilyicms.vercel.app](https://kilyicms.vercel.app/ "https://kilyicms.vercel.app")
 - `github`代码仓库  [kilyicms](https://github.com/durunsong/kilyicms.git)
 - 创作不易希望点个`star`⭐⭐⭐

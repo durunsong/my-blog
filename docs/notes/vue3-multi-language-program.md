@@ -1,6 +1,6 @@
 ## 史上最强vue3+element-plus+ts+vue-i18n国际化多语言教程
 
-### 简介
+## 简介
 
 - 本文将介绍`vue2/vue3/react/angular`项目中做**国际化**时一通百通的方法，文中将用**vue3+element-plus+ts+vue-i18n**做案例，其他框架和UI库类似
 - 做国际化项目的时候通常是`UI组件内置字段`和`vue-i18n`语言切换同步
@@ -9,22 +9,22 @@
 - 本文没有做`日期和时间本地化`，做后端和全栈的同学记得前后端统一哦！
 - 需要先阅读一下**vue-i18n文档**，了解一下基本语法规则
 
-### 推荐个人项目
+## 推荐个人项目
 
 - 这是一个`国际化全栈中后台`解决方案，支持`16种`语言/三种主题切换
 - 前端：`vue3.5+typescript+vite5+pinia+element-plus+unocss+sass`
-- 后端`nodejs+express+mysql+redis`的管理后台项目
+- 后端`nodejs+express+mySQL/postgreSQL+redis`的管理后台项目
 - 预览：网络需要绕过大陆 [kilyicms.vercel.app](https://kilyicms.vercel.app)
 - `github`代码仓库  [kilyicms](https://github.com/durunsong/kilyicms.git)
 - 创作不易希望点个`star`⭐⭐⭐
 
-### 开始
+## 开始
 
 1.创建一个`vue3`项目     略
 
 2.安装`vue-i18n`，以**pnpm**为例
 
-```jsx
+```bash
 pnpm add vue-i18n
 ```
 
@@ -52,7 +52,7 @@ pnpm add vue-i18n
     └── main.ts 入口ts文件
 ```
 
-### 演示代码
+## 演示代码
 
 1. 首先介绍**package**中 `zh.ts`、`en.ts` 、`ru.ts` 语言包文件和`index.ts`文件
 
@@ -633,7 +633,7 @@ const { elementLocale } = useElementPlusLocale();
 </script>
 ```
 
-### 补充
+## 补充
 
 - 在**ts/js**文件中使用**vue-i18n**的方法时, 需要使用`i18n.global`方法
 
@@ -673,7 +673,7 @@ loading_demo_description: "该示例是演示：通过将要执行的函数传�
 - 推荐项目
 - 这是一个`国际化全栈中后台`解决方案，支持`16种`语言/三种主题切换
 - 前端：`vue3.5+typescript+vite5+pinia+element-plus+unocss+sass`
-- 后端`nodejs+express+mysql+redis`的管理后台项目
+- 后端`nodejs+express+mysSQL/postgreSQL+redis`的管理后台项目
 - 预览：网络需要绕过大陆 [kilyicms.vercel.app](https://kilyicms.vercel.app)
 - `github`代码仓库  [kilyicms](https://github.com/durunsong/kilyicms.git)
 - 创作不易希望点个`star`⭐⭐⭐

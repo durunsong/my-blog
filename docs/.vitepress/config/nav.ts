@@ -2,7 +2,7 @@ export default [
     { text: "首页", link: "/" },
     { text: "关于我", link: "/about" },
     { text: "项目", link: "/projects/registration-api" },
-    { text: "笔记", link: "/notes/ip" },
+    { text: "笔记", link: "/notes/detect-ip-vpn" },
     {
       text: "资源",
       items: [

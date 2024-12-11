@@ -2,6 +2,14 @@
   "name": "vitepress-project",
   "private": true,
   "type": "module",
+  "version": "1.0.3",
+  "description": "This is a VitePress blog project",
+  "author": "Jack-DU",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durunsong/my-blog.git"
+  },
   "scripts": {
     "dev": "vitepress dev docs --host",
     "build": "vitepress build docs",

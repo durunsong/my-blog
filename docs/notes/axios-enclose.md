@@ -12,7 +12,7 @@
 ## 推荐项目
 - 这是一个国际化全栈中后台解决方案，支持16种语言切换
 - 前端：vue3.5+typescript+vite5+pinia+element-plus+unocss+sass
-- 后端nodejs+express+mysql+redis的管理后台项目
+- 后端nodejs+express+mySQL/postgreSQL+redis的管理后台项目
 - github代码仓库  [kilyicms](https://github.com/durunsong/kilyicms.git)
 - 创作不易希望点个star⭐⭐⭐
 
