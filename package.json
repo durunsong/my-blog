@@ -35,7 +35,6 @@
     }
   },
   "dependencies": {
-    "@femm/tailwind-config": "^1.0.0",
     "@giscus/vue": "^3.0.0",
     "@iconify/json": "^2.2.281",
     "@mdit-vue/shared": "^2.1.3",

@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@femm/tailwind-config':
-        specifier: ^1.0.0
-        version: 1.0.0(tailwindcss@3.4.16)
       '@giscus/vue':
         specifier: ^3.0.0
         version: 3.0.0(vue@3.5.13)
@@ -575,11 +572,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
-
-  '@femm/tailwind-config@1.0.0':
-    resolution: {integrity: sha512-T3semVlcu87zyQT+2dhOOek4UBQY0bQKyc8zP5mlFt8drw5jDBshHxYiqDSW5HV6Qnariry4SsZwtbAXCVsIKg==}
-    peerDependencies:
-      tailwindcss: '>=3.0.0'
 
   '@floating-ui/core@1.6.8':
     resolution: {integrity: sha512-7XJ9cPU+yI2QeLS+FCSlqNFZJq8arvswefkZrYI1yQBbftw6FyrZOxYSh+9S7z7TpeWlRt9zJ5IhM1WIL334jA==}
@@ -3264,10 +3256,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.23.1':
     optional: true
-
-  '@femm/tailwind-config@1.0.0(tailwindcss@3.4.16)':
-    dependencies:
-      tailwindcss: 3.4.16
 
   '@floating-ui/core@1.6.8':
     dependencies:

@@ -1,31 +1,29 @@
 ---
 layout: home
-layoutClass: 'm-home-layout'
+layoutClass: 'drs-home-layout'
 
 hero:
   name: Jack-DU
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  text: ⚽⚾🎱🏀🏐
+  tagline: 遇事不决，可问春风
   image:
     src: /logo.png
-    alt: durunsong物语
+    alt: durunsong
   actions:
-    - text: durunsong物语
-      link: https://notes.fe-mm.com
+    - text: github主页
+      link: https://github.com/durunsong
     - text: 前端导航
       link: /nav/
       theme: alt
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
     - text: 测试页
       link: /test
       theme: alt
 features:
   - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
-    link: https://notes.fe-mm.com/fe/javascript/types
-    linkText: 前端常用知识
+    title: 笔记归纳
+    details: 自己写的一些笔记<small>（有错误请留言）</small><br />如有异议按你的理解为主，不接受反驳
+    link: /notes/detect-ip-vpn
+    linkText: 查看笔记
   - icon: 📘
     title: 源码阅读
     details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
@@ -44,7 +42,7 @@ features:
   - icon: 🐞
     title: 踩坑记录
     details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
-    link: https://notes.fe-mm.com/pit/npm
+    link: /notes/detect-ip-vpn
     linkText: 踩坑记录
   - icon: 💯
     title: 吾志所向，一往无前。
@@ -54,16 +52,16 @@ features:
 
 <style>
 /*爱的魔力转圈圈*/
-.m-home-layout .image-src:hover {
+.drs-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
 }
 
-.m-home-layout .details small {
+.drs-home-layout .details small {
   opacity: 0.8;
 }
 
-.m-home-layout .bottom-small {
+.drs-home-layout .bottom-small {
   display: block;
   margin-top: 2em;
   text-align: right;

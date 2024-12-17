@@ -247,11 +247,17 @@ export const NAV_DATA: NavData[] = [
         link: 'https://sass-lang.com',
       },
       {
-        icon: 'https://www.tailwindcss.cn/apple-touch-icon.png',
+        icon: 'https://www.tailwindcss.cn/favicons/apple-touch-icon.png?v=3',
         title: 'TailwindCSS 中文网',
         desc: '一个功能类优先的 CSS 框架',
         link: 'https://www.tailwindcss.cn',
       },
+      {
+        icon: 'https://unocss.dev/favicon.svg',
+        title: 'UnoCSS',
+        desc: '即时按需原子 CSS 引擎',
+        link: 'https://unocss.dev',
+      }
     ],
   },
   {
@@ -294,19 +300,19 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://expressjs.com/images/favicon.png',
-        title: 'Express',
+        title: 'Express.js',
         desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
         link: 'https://expressjs.com',
       },
       {
         icon: 'https://www.koajs.net/img/logo.svg',
-        title: 'Koa',
+        title: 'Koa.js',
         desc: '基于 Node.js 平台的下一代 web 开发框架',
         link: 'https://koajs.com',
       },
       {
         icon: 'https://www.eggjs.org/favicon.png',
-        title: 'Egg',
+        title: 'Egg.js',
         desc: '为企业级框架和应用而生',
         link: 'https://www.eggjs.org/zh-CN',
       },
@@ -534,6 +540,12 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
         link: 'https://juejin.cn',
+      },
+      {
+        title: 'CSDN',
+        icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico',
+        desc: '专业IT技术社区',
+        link: 'https://www.csdn.net',
       },
     ],
   },

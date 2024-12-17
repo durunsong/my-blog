@@ -1,61 +1,61 @@
 {
-  "hash": "77f942cd",
+  "hash": "06ad67a8",
   "configHash": "f07ca87a",
-  "lockfileHash": "adcb2c0e",
-  "browserHash": "c35f569b",
+  "lockfileHash": "86686970",
+  "browserHash": "0e490db6",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "656da3ae",
+      "fileHash": "8ab1fa6b",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.6.8/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "3644d120",
+      "fileHash": "032a91a0",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@11.3.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ca93121a",
+      "fileHash": "26511740",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@11.3.0_focus-trap@7.6.2_vue@3.5.13/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "41377257",
+      "fileHash": "4c1f3c1c",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "00eb86a2",
+      "fileHash": "caab2498",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@7.1.1/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "636dcafb",
+      "fileHash": "895c28a0",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/.pnpm/medium-zoom@1.1.0/node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "dde12efa",
+      "fileHash": "2b056469",
       "needsInterop": false
     },
     "@mdit-vue/shared": {
       "src": "../../../../node_modules/.pnpm/@mdit-vue+shared@2.1.3/node_modules/@mdit-vue/shared/dist/index.mjs",
       "file": "@mdit-vue_shared.js",
-      "fileHash": "ed78ceb9",
+      "fileHash": "49d97c4a",
       "needsInterop": false
     },
     "@giscus/vue": {
       "src": "../../../../node_modules/.pnpm/@giscus+vue@3.0.0_vue@3.5.13/node_modules/@giscus/vue/dist/index.js",
       "file": "@giscus_vue.js",
-      "fileHash": "3f6582ca",
+      "fileHash": "1e3433fe",
       "needsInterop": false
     }
   },
