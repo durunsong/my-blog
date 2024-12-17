@@ -1,5 +1,6 @@
 export default [
     { text: "首页", link: "/" },
+    { text: "全栈导航", link: "/nav/index" },
     { text: "关于我", link: "/about" },
     { text: "项目", link: "/projects/registration-api" },
     { text: "笔记", link: "/notes/detect-ip-vpn" },
