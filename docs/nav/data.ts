@@ -235,16 +235,22 @@ export const NAV_DATA: NavData[] = [
     title: 'CSS 相关',
     items: [
       {
-        icon: 'https://postcss.org/assets/logo-3e39b0aa.svg',
+        icon: 'https://postcss.org/assets/logo-C2ryQugb.svg',
         title: 'PostCSS',
         desc: '一个用 JavaScript 转换 CSS 的工具',
         link: 'https://postcss.org',
       },
       {
-        icon: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+        icon: 'https://sass-lang.com/favicon.ico',
         title: 'Sass',
         desc: '一个成熟，稳定，功能强大的专业级 CSS 扩展语言',
         link: 'https://sass-lang.com',
+      },
+      {
+        icon: 'https://less.bootcss.com/public/ico/favicon.ico',
+        title: 'Less',
+        desc: '一个成熟，稳定，功能强大的专业级 CSS 扩展语言',
+        link: 'https://less.bootcss.com/',
       },
       {
         icon: 'https://www.tailwindcss.cn/favicons/apple-touch-icon.png?v=3',
@@ -334,13 +340,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://echarts.apache.org/zh/index.html',
       },
       {
-        icon: 'https://antv.vision/icons/icon-72x72.png',
+        icon: 'https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original',
         title: 'AntV',
         desc: '蚂蚁集团全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
         link: 'https://antv.vision/zh/',
       },
       {
-        icon: 'https://d3js.org/favicon.png',
+        icon: 'https://d3js.org/logo.png',
         title: 'D3.js',
         desc: '一个遵循 Web 标准用于可视化数据的 JavaScript 库',
         link: 'https://d3js.org',
@@ -452,6 +458,12 @@ export const NAV_DATA: NavData[] = [
     title: '图标库',
     items: [
       {
+        icon: 'https://yesicon.app/favicon-32x32.png',
+        title: 'yesicon',
+        desc: '245,000+ 枚高品质矢量图标,来自全球顶尖设计团队',
+        link: 'https://yesicon.app/',
+      },
+      {
         icon: 'https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg',
         title: 'iconfont',
         desc: '国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能',
@@ -467,7 +479,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://emoji.muan.co/appicon.png',
         title: 'Emoji searcher',
         desc: 'Emoji 表情大全',
-        link: '',
+        link: 'https://emoji8.com/zh-hans/',
       },
     ],
   },
@@ -475,13 +487,13 @@ export const NAV_DATA: NavData[] = [
     title: '前端学习资料',
     items: [
       {
-        icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
+        icon: 'https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png',
         title: 'MDN | Web 开发者指南',
         desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
         link: 'https://developer.mozilla.org/zh-CN',
       },
       {
-        icon: 'https://static.runoob.com/images/favicon.ico',
+        icon: 'https://img0.baidu.com/it/u=4165879255,2981443443&fm=253&fmt=auto&app=138&f=PNG?w=256&h=256',
         title: '菜鸟教程',
         desc: '学的不仅是技术，更是梦想！',
         link: 'https://www.runoob.com',
@@ -559,7 +571,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://momoyu.cc',
       },
       {
-        icon: 'https://v.qq.com/favicon.ico',
+        icon: 'https://img2.baidu.com/it/u=3811684333,1057909498&fm=253&fmt=auto&app=138&f=PNG?w=243&h=243',
         title: '腾讯视频',
         // desc: '中国领先的在线视频媒体平台，海量高清视频在线观看',
         link: 'https://v.qq.com',
