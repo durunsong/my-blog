@@ -1,3 +1,7 @@
+# uniapp集成cloudflare turnstile人机验证
+
+待补充内容...
+
 ## uniapp 中使用cloudflare的turnstile人机验证
 
 ![Snipaste\_2024-08-26\_20-01-42.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/cdc84e78153c43dabb3263ee6e085e58~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56CB5LiK57ud5bCY:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjA1NDM2Mjc3OTg4MzM4MyJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1734524394&x-orig-sign=lespvCuDFSi5hwOKVK3Vo0N9tSc%3D)

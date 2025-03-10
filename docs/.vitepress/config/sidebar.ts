@@ -17,6 +17,33 @@ export default {
         ],
       },
     ],
+    "/Interview/": [
+      {
+        text: "前端面试题",
+        items: [
+          { text: "HTML", link: "/Interview/html/html" },
+          { text: "CSS", link: "/Interview/css/css" },
+          { text: "JavaScript", link: "/Interview/javascript/javascript" },
+          { text: "Vue", link: "/Interview/vue/vue" },
+          { text: "React", link: "/Interview/react/react" },
+          { text: "Node.js", link: "/Interview/nodejs/nodejs" },
+          { text: "Webpack", link: "/Interview/webpack/webpack.md" },
+          { text: "Git", link: "/Interview/git/git" },
+          { text: "Web安全", link: "/Interview/web-security/web-security" },
+          { text: "性能优化", link: "/Interview/performance-optimization/performance-optimization" },
+          { text: "网络协议", link: "/Interview/network-protocol/network-protocol" },
+          { text: "浏览器", link: "/Interview/browser/browser" },
+          { text: "计算机网络", link: "/Interview/computer-network/computer-network" },
+          { text: "操作系统", link: "/Interview/operating-system/operating-system" },
+          { text: "数据库", link: "/Interview/database/database" },
+          { text: "设计模式", link: "/Interview/design-pattern/design-pattern" },
+          { text: "数据结构", link: "/Interview/data-structure/data-structure" },
+          { text: "算法", link: "/Interview/algorithm/algorithm" },
+          { text: "网络", link: "/Interview/network/network" },
+          { text: "网络安全", link: "/Interview/network-security/network-security" },
+        ],
+      },
+    ],
     "/projects/": [
       {
         text: "项目列表",
@@ -26,4 +53,3 @@ export default {
       },
     ],
   };
-  

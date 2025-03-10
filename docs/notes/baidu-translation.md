@@ -1,4 +1,4 @@
-## 自动化翻译的JavaScript程序
+# 自动化翻译的JavaScript程序
 
 ## 介绍
 

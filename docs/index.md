@@ -25,10 +25,10 @@ features:
     link: /notes/detect-ip-vpn
     linkText: 查看笔记
   - icon: 📘
-    title: 源码阅读
-    details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: https://notes.fe-mm.com/analysis/utils/only-allow
-    linkText: 源码阅读
+    title: 前端面试题
+    details: 经典八股文<br />场景面试题
+    link: /Interview/html/html
+    linkText: 查看面试题
   - icon: 💡
     title: Workflow
     details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼

@@ -1,3 +1,7 @@
+# vue3+element-plus+ts+vue-i18n国际化教程
+
+待补充内容...
+
 ## 史上最强vue3+element-plus+ts+vue-i18n国际化多语言教程
 
 ## 简介
