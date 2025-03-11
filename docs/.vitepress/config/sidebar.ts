@@ -27,7 +27,7 @@ export default {
           { text: "Vue", link: "/Interview/vue/vue" },
           { text: "React", link: "/Interview/react/react" },
           { text: "Node.js", link: "/Interview/nodejs/nodejs" },
-          { text: "Webpack", link: "/Interview/webpack/webpack.md" },
+          { text: "Webpack", link: "/Interview/webpack/webpack" },
           { text: "Git", link: "/Interview/git/git" },
           { text: "Web安全", link: "/Interview/web-security/web-security" },
           { text: "性能优化", link: "/Interview/performance-optimization/performance-optimization" },
